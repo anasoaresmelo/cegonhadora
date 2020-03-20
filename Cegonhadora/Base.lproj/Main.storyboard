@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GZc-9N-DTK">
-                                <rect key="frame" x="-1" y="0.0" width="415" height="896"/>
+                                <rect key="frame" x="-1" y="34" width="415" height="862"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N2l-vj-xRD">
@@ -132,7 +132,7 @@
                                                 </connections>
                                             </button>
                                             <view hidden="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vOW-t0-r1X">
-                                                <rect key="frame" x="56" y="70" width="341" height="633"/>
+                                                <rect key="frame" x="56" y="19" width="341" height="633"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 6" translatesAutoresizingMaskIntoConstraints="NO" id="KCV-iq-mX3">
@@ -188,83 +188,145 @@ Não podemos usar os meses pois eles não tem uma duração fixa. Alguns tem 30,
                                         <rect key="frame" x="0.0" y="857" width="415" height="1143"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 2" translatesAutoresizingMaskIntoConstraints="NO" id="kah-0C-VIa">
-                                                <rect key="frame" x="1" y="-23" width="414" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAs-Tc-WiU">
-                                                <rect key="frame" x="-20" y="118" width="447" height="732"/>
+                                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAs-Tc-WiU">
+                                                <rect key="frame" x="-20" y="0.0" width="447" height="940"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A gestação está com" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCl-ka-FKd">
-                                                        <rect key="frame" x="50" y="20" width="355" height="130"/>
+                                                        <rect key="frame" x="49" y="156" width="355" height="130"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="29"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comprimento" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vk7-qw-TEr">
-                                                        <rect key="frame" x="48" y="502" width="175" height="130"/>
+                                                        <rect key="frame" x="44" y="573" width="175" height="130"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="21"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Peso" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNZ-1N-q8e">
-                                                        <rect key="frame" x="260" y="502" width="167" height="130"/>
+                                                        <rect key="frame" x="256" y="573" width="167" height="130"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="21"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tenho o tamanho de" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M84-fN-D9T">
-                                                        <rect key="frame" x="56" y="272" width="247" height="130"/>
+                                                        <rect key="frame" x="52" y="343" width="247" height="130"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="29"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 4" translatesAutoresizingMaskIntoConstraints="NO" id="UUr-VZ-Ryi">
-                                                        <rect key="frame" x="56" y="113" width="355" height="86"/>
+                                                        <rect key="frame" x="55" y="249" width="355" height="86"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xx semanas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQC-aR-oh1">
-                                                        <rect key="frame" x="96" y="123" width="275" height="52"/>
+                                                        <rect key="frame" x="95" y="259" width="275" height="52"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 4" translatesAutoresizingMaskIntoConstraints="NO" id="hzo-2S-91g">
-                                                        <rect key="frame" x="56" y="383" width="355" height="86"/>
+                                                        <rect key="frame" x="52" y="454" width="355" height="86"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="exemplo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6p-MJ-Ei6">
-                                                        <rect key="frame" x="96" y="395" width="275" height="52"/>
+                                                        <rect key="frame" x="92" y="466" width="275" height="52"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgd-dh-p2D">
-                                                        <rect key="frame" x="219" y="327" width="25" height="37"/>
+                                                        <rect key="frame" x="215" y="398" width="25" height="37"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="tintColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <state key="normal" title="Button" image="info.circle.fill" catalog="system"/>
+                                                        <connections>
+                                                            <action selector="clicarMaisInfoDimensoes" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jcv-WG-wol"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peso" translatesAutoresizingMaskIntoConstraints="NO" id="9zf-ai-8Rh">
-                                                        <rect key="frame" x="20" y="592" width="224" height="120"/>
+                                                        <rect key="frame" x="16" y="663" width="224" height="120"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comprimento" translatesAutoresizingMaskIntoConstraints="NO" id="QO1-mF-anu">
-                                                        <rect key="frame" x="244" y="592" width="183" height="120"/>
+                                                        <rect key="frame" x="240" y="663" width="183" height="120"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBf-ZM-1Sp">
+                                                        <rect key="frame" x="52" y="693" width="162" height="55"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y41-BA-mCK">
+                                                        <rect key="frame" x="273" y="690" width="106" height="54"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                                        <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view hidden="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yFX-A9-ywN">
+                                                        <rect key="frame" x="59" y="150" width="341" height="633"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 6" translatesAutoresizingMaskIntoConstraints="NO" id="Fim-8M-tct">
+                                                                <rect key="frame" x="-10" y="-10" width="362" height="654"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </imageView>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 7" translatesAutoresizingMaskIntoConstraints="NO" id="ZQv-kC-VZD">
+                                                                <rect key="frame" x="17" y="132" width="309" height="438"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </imageView>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riy-w9-Jst">
+                                                                <rect key="frame" x="112" y="515" width="119" height="49"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="normal" title="Entendi" backgroundImage="botao">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="clicarEntendi" destination="BYZ-38-t0r" eventType="touchUpInside" id="NAg-yQ-5rY"/>
+                                                                </connections>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bES-JF-G2t">
+                                                                <rect key="frame" x="17" y="8" width="309" height="116"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <string key="text">Como comparar as dimensões do bebê apenas sabendo a Idade Gestacional?
+</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="62" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtd-3p-j7x">
+                                                                <rect key="frame" x="38" y="143" width="267" height="346"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <string key="text">Existe uma Tabela de Referência Tamanho e Peso do Feto, usada por profissionais da saúde, que relaciona exatamente o tempo da gestação com essas medidas.
+
+Lembrando que  que cada bebê se desenvolve conforme a saúde da mãe, e também depende de fatores genéticos como peso e altura dos pais. 
+
+Logo, faça seus exames regularmente.</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </view>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 2" translatesAutoresizingMaskIntoConstraints="NO" id="kah-0C-VIa">
+                                                <rect key="frame" x="0.0" y="-24" width="414" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ellipse 2-1" translatesAutoresizingMaskIntoConstraints="NO" id="xLI-yB-q6r">
-                                                <rect key="frame" x="0.0" y="964" width="415" height="216"/>
+                                                <rect key="frame" x="0.0" y="789" width="415" height="216"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -282,24 +344,29 @@ Não podemos usar os meses pois eles não tem uma duração fixa. Alguns tem 30,
                         <outlet property="Entendi" destination="pny-zB-oBl" id="O4R-Q5-9wd"/>
                         <outlet property="botaoCalcular" destination="VmU-hP-oWQ" id="rYw-x6-sEi"/>
                         <outlet property="botaoInfo" destination="b9h-4Z-mO1" id="Uj7-re-fM9"/>
+                        <outlet property="botaoInfoDimensoes" destination="Tgd-dh-p2D" id="6BN-hI-TJS"/>
                         <outlet property="botaoRecalcular" destination="S6e-7G-XjJ" id="MJS-jZ-S3Y"/>
                         <outlet property="fundoBrancoLabelDataProvavel" destination="bvQ-LY-vvg" id="Dks-sn-pcH"/>
+                        <outlet property="labelComparaTamanho" destination="S6p-MJ-Ei6" id="dcV-Ae-2al"/>
+                        <outlet property="labelComprimento" destination="KBf-ZM-1Sp" id="18m-DT-sbl"/>
                         <outlet property="labelDataProvavel" destination="9eO-Bj-lSo" id="c8O-jy-hUD"/>
+                        <outlet property="labelNumeroDeSemanas" destination="oQC-aR-oh1" id="eWE-BG-erA"/>
+                        <outlet property="labelPeso" destination="Y41-BA-mCK" id="ayb-E5-1gQ"/>
                         <outlet property="scroll" destination="GZc-9N-DTK" id="CRi-iw-xyr"/>
                         <outlet property="segundaView" destination="dAs-Tc-WiU" id="kJU-JM-Bl1"/>
-                        <outlet property="semanasLabel" destination="oQC-aR-oh1" id="K5X-Df-fP4"/>
                         <outlet property="textFieldAno" destination="X4g-kd-5Cq" id="3XJ-p1-YiY"/>
                         <outlet property="textFieldDia" destination="gxO-IX-JA4" id="sS3-n0-zU1"/>
                         <outlet property="textFieldHello" destination="tje-KZ-4w1" id="23K-in-yoW"/>
                         <outlet property="textFieldInsertHere" destination="pkp-pS-0nA" id="eTZ-qx-171"/>
                         <outlet property="textFieldMes" destination="d8Q-Tt-Bqi" id="yTo-gm-KsF"/>
                         <outlet property="tituloDataProvavel" destination="83P-iE-2MC" id="2O6-yy-eI5"/>
+                        <outlet property="viewMaisInfoDimensoes" destination="yFX-A9-ywN" id="gpo-5q-Maq"/>
                         <outlet property="viewMaisInformacoes" destination="vOW-t0-r1X" id="7me-nv-Q2r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-184" y="47"/>
+            <point key="canvasLocation" x="-184.05797101449278" y="46.875"/>
         </scene>
     </scenes>
     <resources>

@@ -16,12 +16,8 @@ class Data {
         self.mes = mes
         self.ano = ano
     }
-    
-    func meses(){
-    
-    }
-    
-    func calculoDataProvavel() ->  (day: String, month:String, year: String) {
+   
+    func calculoDataProvavel() ->  (day: String, month:String, year: String, monthInt: Int) {
        
         // Somar 7 dias à data informada
             var calculoDia: Int = dia+7
@@ -52,6 +48,6 @@ class Data {
             let anoString: String = String(format :
                 "%4i", calculoAno)
         
-        return (diaString, mesString, anoString)
+        return (diaString, mesString, anoString, calculoMes)
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7AA46432423A85B00EBA108 /* Comparacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AA46422423A85B00EBA108 /* Comparacoes.swift */; };
+		F7AA4645242435EA00EBA108 /* TamanhoEPeso.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AA4644242435EA00EBA108 /* TamanhoEPeso.swift */; };
 		F7D13BBC2417DC8D002D8B85 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D13BBB2417DC8D002D8B85 /* Data.swift */; };
 		F7E84102240EA2DF0083BAC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E84101240EA2DF0083BAC0 /* AppDelegate.swift */; };
 		F7E84104240EA2E00083BAC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E84103240EA2E00083BAC0 /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7AA46422423A85B00EBA108 /* Comparacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparacoes.swift; sourceTree = "<group>"; };
+		F7AA4644242435EA00EBA108 /* TamanhoEPeso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamanhoEPeso.swift; sourceTree = "<group>"; };
 		F7D13BBB2417DC8D002D8B85 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		F7E840FE240EA2DF0083BAC0 /* Cegonhadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cegonhadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E84101240EA2DF0083BAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				F7E84101240EA2DF0083BAC0 /* AppDelegate.swift */,
 				F7E84103240EA2E00083BAC0 /* SceneDelegate.swift */,
 				F7E84105240EA2E00083BAC0 /* ViewController.swift */,
+				F7AA4644242435EA00EBA108 /* TamanhoEPeso.swift */,
+				F7AA46422423A85B00EBA108 /* Comparacoes.swift */,
 				F7D13BBB2417DC8D002D8B85 /* Data.swift */,
 				F7E84107240EA2E00083BAC0 /* Main.storyboard */,
 				F7E8410A240EA2E30083BAC0 /* Assets.xcassets */,
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E84106240EA2E00083BAC0 /* ViewController.swift in Sources */,
+				F7AA4645242435EA00EBA108 /* TamanhoEPeso.swift in Sources */,
 				F7E84102240EA2DF0083BAC0 /* AppDelegate.swift in Sources */,
 				F7E84104240EA2E00083BAC0 /* SceneDelegate.swift in Sources */,
 				F7D13BBC2417DC8D002D8B85 /* Data.swift in Sources */,
+				F7AA46432423A85B00EBA108 /* Comparacoes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
